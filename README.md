@@ -8,6 +8,8 @@ Diese Webanwendung ermöglicht es Benutzern, in Echtzeit miteinander zu chatten.
 - **Einfache Benutzeroberfläche:** Eine intuitive Oberfläche macht die Bedienung der App einfach und benutzerfreundlich.
 - **Echtzeit-Aktualisierung:** Neue Nachrichten werden automatisch in den Chat eingefügt, ohne dass die Seite neu geladen werden muss.
 
+
+
 ## Verwendung
 
 folgt noch
