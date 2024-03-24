@@ -1,27 +1,26 @@
 # Bonnies-Chat-App
 
-Diese Webanwendung ermöglicht es Benutzern, in Echtzeit miteinander zu chatten. Sie ist derzeit auf den Chat zwischen zwei Personen ausgelegt, aber weitere Funktionen sind geplant.
+This web application allows users to chat with each other in real-time. It is currently designed for chat between two people, but additional features are planned.
 
-## Geplante erste Funktionen
+## Planned Initial Features
 
-- **Chat zwischen zwei Personen:** Benutzer können Nachrichten in Echtzeit senden und empfangen.
-- **Einfache Benutzeroberfläche:** Eine intuitive Oberfläche macht die Bedienung der App einfach und benutzerfreundlich.
-- **Echtzeit-Aktualisierung:** Neue Nachrichten werden automatisch in den Chat eingefügt, ohne dass die Seite neu geladen werden muss.
-
+- **Chat between two people:** Users can send and receive messages in real-time.
+- **Simple user interface:** An intuitive interface makes the app easy to use and user-friendly.
+- **Real-time updates:** New messages are automatically inserted into the chat without the need to reload the page.
 
 ![OverviewComponents_FirstStep](https://github.com/B-Baumeister/Bonnies-Chat-App/assets/128323709/0fcb83f9-87d0-49c8-a23e-f55e1cb98c88)
 
-## Verwendung
+## How to use
 
-folgt noch
+To be added
 
-## Technologien
+## Technologies
 
-- **React:** Die App wurde mit React entwickelt, um eine reaktive Benutzeroberfläche zu gewährleisten.
-- **HTML/CSS:** Grundlegende HTML- und CSS-Dateien werden verwendet, um die Struktur und das Styling der App zu definieren.
-- **JavaScript:** JavaScript wird für die Funktionalität des Chats verwendet, einschließlich der Verarbeitung von Nachrichten und der Aktualisierung der Benutzeroberfläche.
+- **React:** The app is developed using React.
+- **CSS:** CSS for styling of thr app.
+- **JavaScript:**  JavaScript is used for the chat functionality, including message processing and user interface updates.
 
-## Autor
+## Author
 
-Entwickelt von [B-Baumeister]
+Developed by [B-Baumeister]
 
