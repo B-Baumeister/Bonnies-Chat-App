@@ -8,6 +8,9 @@ Diese Webanwendung ermöglicht es Benutzern, in Echtzeit miteinander zu chatten.
 - **Einfache Benutzeroberfläche:** Eine intuitive Oberfläche macht die Bedienung der App einfach und benutzerfreundlich.
 - **Echtzeit-Aktualisierung:** Neue Nachrichten werden automatisch in den Chat eingefügt, ohne dass die Seite neu geladen werden muss.
 
+
+![OverviewComponents_FirstStep](https://github.com/B-Baumeister/Bonnies-Chat-App/assets/128323709/0fcb83f9-87d0-49c8-a23e-f55e1cb98c88)
+
 ## Verwendung
 
 folgt noch
