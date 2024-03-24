@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Header from './components/Header';
+import MessageInput from './components/MessageInput';
+import SendButton from './components/SendButton';
+import Form from './components/Form';
+import Chat from './components/Chat';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Header className='App-header'>
+        <h1>Bonnies Chat App</h1>
+      </Header>
+      <Chat className='chat'></Chat>
+      <Form>
+        <label>Message Input</label>
+        <MessageInput
+          name='MessageInput'
+          id='MessageInput'
+          type='text'
+        ></MessageInput>
+        <SendButton type='submit'>SEND</SendButton>
+      </Form>
     </div>
   );
 }
