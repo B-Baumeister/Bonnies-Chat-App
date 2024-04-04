@@ -10,6 +10,7 @@ function App() {
       <Header className='App-header'>
         <h1>Bonnies Chat App</h1>
       </Header>
+      <Chat></Chat>
     </div>
   );
 }
