@@ -10,16 +10,6 @@ function App() {
       <Header className='App-header'>
         <h1>Bonnies Chat App</h1>
       </Header>
-      <Chat className='chat'></Chat>
-      <Form>
-        <label>Message Input</label>
-        <MessageInput
-          name='MessageInput'
-          id='MessageInput'
-          type='text'
-        ></MessageInput>
-        <SendButton type='submit'>SEND</SendButton>
-      </Form>
     </div>
   );
 }
