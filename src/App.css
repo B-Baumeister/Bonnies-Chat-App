@@ -14,15 +14,16 @@
   color: white;
 }
 
-form {
-  width: -webkit-fill-available;
+.Inputarea {
+  width: 100%;
   box-sizing: border-box;
   display: block;
   align-items: center;
   padding: 0.8rem;
   background-color: rgb(243, 239, 239);
   bottom: 0;
-  position: absolute;
+  position: sticky;
+  z-index: 2;
 }
 .MessageInput {
   border: none;
