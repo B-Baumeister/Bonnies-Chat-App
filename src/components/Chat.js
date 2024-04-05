@@ -7,32 +7,36 @@ export default function Chat() {
 
   return (
     <main>
-      <input
-        value={inputMessage}
-        onChange={event => {
-          setMessage(event.target.value);
-        }}
-      />
+      <div className='Chat'>
+        <ul>
+          {messageHistory.map(message => (
+            <li key={message.id} className='Chatmessage'>
+              {message.userName}: {message.messageValue}
+            </li>
+          ))}
+        </ul>
+      </div>
+      <section className='Inputarea'>
+        <input
+          className='MessageInput'
+          value={inputMessage}
+          onChange={event => {
+            setMessage(event.target.value);
+          }}
+        />
 
-      <button
-        onClick={() => {
-          setMessageHistory([
-            ...messageHistory,
-            { id: nextID++, messageValue: inputMessage, userName: 'Fabian' }
-          ]);
-          setMessage('');
-        }}
-      >
-        Send
-      </button>
-
-      <ul>
-        {messageHistory.map(message => (
-          <li key={message.id}>
-            {message.userName}: {message.messageValue}
-          </li>
-        ))}
-      </ul>
+        <button
+          onClick={() => {
+            setMessageHistory([
+              ...messageHistory,
+              { id: nextID++, messageValue: inputMessage, userName: 'Fabian' }
+            ]);
+            setMessage('');
+          }}
+        >
+          Send
+        </button>
+      </section>
     </main>
   );
 }
